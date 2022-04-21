@@ -36,8 +36,6 @@ public class StaticResponseValidation {
 		String actData = resp.jsonPath().get("projectName");
 		Assert.assertTrue(actData.contains("Amdocs"));
 		 
-		 
-		 
 		resp.then()
 		 .assertThat().statusCode(201)
 		 .log().all();

@@ -22,4 +22,5 @@ public class ParametersTestForGIt {
 		.then().assertThat().statusCode(200).log().all();
 	}
 
+	
 }
