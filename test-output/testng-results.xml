@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-21T17:39:00 IST" name="Default suite" finished-at="2022-04-21T17:39:03 IST" duration-ms="3536">
+  <suite started-at="2022-04-22T12:49:52 IST" name="Default suite" finished-at="2022-04-22T12:49:55 IST" duration-ms="2504">
     <groups>
     </groups>
-    <test started-at="2022-04-21T17:39:00 IST" name="Default test" finished-at="2022-04-21T17:39:03 IST" duration-ms="3536">
-      <class name="authentications.Oauth2_0">
-        <test-method signature="oauthAuthentication()[pri:0, instance:authentications.Oauth2_0@732c2a62]" started-at="2022-04-21T17:39:00 IST" name="oauthAuthentication" finished-at="2022-04-21T17:39:03 IST" duration-ms="3481" status="PASS">
+    <test started-at="2022-04-22T12:49:52 IST" name="Default test" finished-at="2022-04-22T12:49:55 IST" duration-ms="2504">
+      <class name="rmgyantraTestsWithFramework.CreateProjectAndVerifyInDataBase">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:rmgyantraTestsWithFramework.CreateProjectAndVerifyInDataBase@bd4dc25]" started-at="2022-04-22T12:49:51 IST" name="bsConfig" finished-at="2022-04-22T12:49:52 IST" duration-ms="1149" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- oauthAuthentication -->
-      </class> <!-- authentications.Oauth2_0 -->
+        </test-method> <!-- bsConfig -->
+        <test-method signature="createProjectVerifyInDb()[pri:0, instance:rmgyantraTestsWithFramework.CreateProjectAndVerifyInDataBase@bd4dc25]" started-at="2022-04-22T12:49:52 IST" name="createProjectVerifyInDb" finished-at="2022-04-22T12:49:55 IST" duration-ms="2475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectVerifyInDb -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:rmgyantraTestsWithFramework.CreateProjectAndVerifyInDataBase@bd4dc25]" started-at="2022-04-22T12:49:55 IST" name="asConfig" finished-at="2022-04-22T12:49:55 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- rmgyantraTestsWithFramework.CreateProjectAndVerifyInDataBase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

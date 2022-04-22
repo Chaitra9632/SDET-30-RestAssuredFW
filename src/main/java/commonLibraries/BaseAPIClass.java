@@ -23,6 +23,8 @@ public class BaseAPIClass {
 		//set base Uri and port
 	    baseURI = "http://localhost";
 	    port = 8084;
+	    
+	    
 	}
 	
 	
